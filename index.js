@@ -5,7 +5,7 @@ function submitData(userName, userEmail){
         "email":`${userEmail}`
     }
     return fetch('http://localhost:3000/users/1', {
-        method: "PUT",
+        method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json"
